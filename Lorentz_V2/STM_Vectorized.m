@@ -18,9 +18,9 @@ phi(:,1:n) = [];
 
 
 
-STM_output = [phi(end,1:nt/n)'];
+STM_output = [phi(end,1:nt/n).'];
 for k = 1:n-1
-    STM_output = cat(2,STM_output,phi(end,((k*nt/n)+1):(k+1)*(nt/n))');
+    STM_output = cat(2,STM_output,phi(end,((k*nt/n)+1):(k+1)*(nt/n)).');
 end
 
 end
