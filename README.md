@@ -1,5 +1,5 @@
 # Lorentz_equation
-This repo contains code for find stable and unstable PO using newton raphson
+This repo contains code for finding stable and unstable PO using newton raphson
 
 TD : Time dependent simulation of lorentz equation       
 F_ : lorentz equation, RHS as function. X_dot(t) = F_ = RHS     
